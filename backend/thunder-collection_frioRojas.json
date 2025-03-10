@@ -1,0 +1,198 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "frioRojas",
+    "collectionId": "b09e1fe8-2c64-4489-9a9b-b8dabf312c49",
+    "dateExported": "2025-02-23T12:41:58.891Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a9f4c52c-a5df-4a92-b3b6-ea50d5b30ff8",
+            "colId": "b09e1fe8-2c64-4489-9a9b-b8dabf312c49",
+            "containerId": "",
+            "name": "ConsultarUsuario",
+            "url": "http://localhost:3000/usuario",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-02-22T03:00:49.148Z",
+            "modified": "2025-02-22T18:41:37.977Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "beaver eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imx1bmE5OSIsImlhdCI6MTc0MDI0OTY1OSwiZXhwIjoxNzQwMjUwMjU5fQ.04Rg81Un5kp0siAIWQE07c2ePAkXcTPVzNK-02iXWi4"
+                }
+            ]
+        },
+        {
+            "_id": "e6f99245-aa8c-45f7-a96d-19490bc01a33",
+            "colId": "b09e1fe8-2c64-4489-9a9b-b8dabf312c49",
+            "containerId": "",
+            "name": "consultarProducto",
+            "url": "http://localhost:3000/articulos/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-02-22T03:01:09.593Z",
+            "modified": "2025-02-22T03:29:41.871Z",
+            "headers": []
+        },
+        {
+            "_id": "4d462552-242c-4f6f-9db9-12c3a2ae6023",
+            "colId": "b09e1fe8-2c64-4489-9a9b-b8dabf312c49",
+            "containerId": "",
+            "name": "consultarPublicaciones",
+            "url": "http://localhost:3000/publicaciones/",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-02-22T03:01:37.600Z",
+            "modified": "2025-02-23T11:52:15.695Z",
+            "headers": []
+        },
+        {
+            "_id": "4394138d-a878-48b3-8853-7b00d2336e26",
+            "colId": "b09e1fe8-2c64-4489-9a9b-b8dabf312c49",
+            "containerId": "",
+            "name": "consultarVenta",
+            "url": "http://localhost:3000/ventas",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2025-02-22T03:02:20.827Z",
+            "modified": "2025-02-23T11:53:04.650Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "beaver eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imx1bmE5OSIsImlhdCI6MTc0MDMxMTM4NCwiZXhwIjoxNzQwMzExOTg0fQ.9yGpN9ZsDqjsLcayClYRZSIxS6ZzyKTAKRBkOGkF-34"
+                }
+            ]
+        },
+        {
+            "_id": "34badc69-9925-4e21-bc8b-8df5f68bb7df",
+            "colId": "b09e1fe8-2c64-4489-9a9b-b8dabf312c49",
+            "containerId": "",
+            "name": "consultarFavoritos",
+            "url": "http://localhost:3000/favoritos",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2025-02-22T03:02:33.678Z",
+            "modified": "2025-02-23T12:31:48.982Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "beaver eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imx1bmE5OSIsImlhdCI6MTc0MDMxMzg4NywiZXhwIjoxNzQwMzE0NDg3fQ.FnJ8wlSiufpjkscxwsFaihNmSU6uOYZ1yq5fgFdEg-s"
+                }
+            ]
+        },
+        {
+            "_id": "dd4aee02-e67a-4198-9419-e09687c2db50",
+            "colId": "b09e1fe8-2c64-4489-9a9b-b8dabf312c49",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:3000/login",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2025-02-22T03:03:00.320Z",
+            "modified": "2025-02-22T18:40:59.717Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"email\":\"luna99\",    \n    \"password\":\"blablabla\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "04b483c8-9bb4-4d2e-9a5b-64c33f0a8752",
+            "colId": "b09e1fe8-2c64-4489-9a9b-b8dabf312c49",
+            "containerId": "",
+            "name": "register",
+            "url": "http://localhost:3000/register",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2025-02-22T03:03:11.735Z",
+            "modified": "2025-02-22T03:11:06.905Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \r\n    \"nombre\":\"Carlo Aguirre\",\r\n    \"email\":\"carlo@desafioLatam.com\",    \r\n    \"rol\":\"admin\",\r\n    \"password\":\"blablabla\"\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "d569b276-6bd9-4907-962f-bb5f89a7f697",
+            "colId": "b09e1fe8-2c64-4489-9a9b-b8dabf312c49",
+            "containerId": "",
+            "name": "articulos",
+            "url": "http://localhost:3000/articulos",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2025-02-22T03:03:24.316Z",
+            "modified": "2025-02-22T03:10:50.391Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"nombre\":\"articulo1\",\r\n    \"descripcion\":\"cosas de articulo1\",\r\n    \"precio\":\"2000\",\r\n    \"stock\":\"20\",\r\n    \"url\":\"www.algunlado.com/blbl\"\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "86ea71f2-da22-4d4f-8cb3-4b089a0bd443",
+            "colId": "b09e1fe8-2c64-4489-9a9b-b8dabf312c49",
+            "containerId": "",
+            "name": "publicacion",
+            "url": "http://localhost:3000/publicacion",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2025-02-22T03:03:36.689Z",
+            "modified": "2025-02-22T03:13:19.929Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Beaver eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imx1bmE5OSIsImlhdCI6MTczOTc2Njg4MCwiZXhwIjoxNzM5NzY3NDgwfQ.FFEMnXJCoQvMVleJc2UVNmdx53BLwSxC43I9yvH-bXk"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"idProducto\":\"1\"\r\n    \r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "817b8095-fcd4-4e12-ab10-eef6ca5d0157",
+            "colId": "b09e1fe8-2c64-4489-9a9b-b8dabf312c49",
+            "containerId": "",
+            "name": "ventas",
+            "url": "http://localhost:3000/ventas",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2025-02-22T03:03:46.856Z",
+            "modified": "2025-02-22T04:02:18.446Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Beaver eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imx1bmE5OSIsImlhdCI6MTc0MDE5Njg5MywiZXhwIjoxNzQwMTk3NDkzfQ.SvWI0FjFwLhEuPfkgTL09xX6pXwUqZQA1VQClIwbhRY"
+                }
+            ]
+        },
+        {
+            "_id": "711f1b50-d248-42da-9f09-3db46a60127b",
+            "colId": "b09e1fe8-2c64-4489-9a9b-b8dabf312c49",
+            "containerId": "",
+            "name": "favoritos",
+            "url": "http://localhost:3000/favoritos",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2025-02-22T03:04:01.637Z",
+            "modified": "2025-02-22T03:15:06.077Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Beaver eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imx1bmE5OSIsImlhdCI6MTczOTgyODc4NywiZXhwIjoxNzM5ODI5Mzg3fQ.ywkwERYQ1ylacgubH8dWmUVANsgyJG5pzDmaAuFnfx0"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"idPublicacion\":4\r\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "k8pr2PrLGR6hfEVl_rp6xBu_yZhg_sOg43GWF-78zm8VfTKBb0Wimevw_ZjgLuUfcqs0xDNquIcFp7wi87u2bw"
+}
